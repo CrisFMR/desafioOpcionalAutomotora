@@ -4,10 +4,11 @@ package cl.praxis.model;
 public class Vendedor extends Persona{
     private String direccion;
 
+    //--CONSTRUCTOR--
     public Vendedor(){
     }
 
-    //--CONSTRUCTOR--
+    //--SUPER CLASS--
     public Vendedor(String rut, String nombre, int edad, String direccion) {
         super(rut, nombre, edad);
         this.direccion = direccion;

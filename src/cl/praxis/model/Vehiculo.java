@@ -4,9 +4,10 @@ public class Vehiculo {
     private String color;
     private String patente;
 
+    //--CONSTRUCTOR--
+
     public Vehiculo(){}
 
-    //--CONSTRUCTOR--
     public Vehiculo(String color, String patente) {
         this.color = color;
         this.patente = patente;

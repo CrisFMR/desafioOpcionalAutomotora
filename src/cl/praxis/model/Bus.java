@@ -4,10 +4,11 @@ package cl.praxis.model;
 public class Bus extends Vehiculo{
     private int cantidadDeAsientos;
 
+    //--CONSTRUCTOR
     public Bus(){
     }
 
-    //--CONSTRUCTOR + SUPER CLASS--
+    //--SUPER CLASS--
     public Bus(String color, String patente, int cantidadDeAsientos) {
         super(color, patente);
         this.cantidadDeAsientos = cantidadDeAsientos;

@@ -1,10 +1,14 @@
 package cl.praxis.model;
 
-public class Taxi {
+public class Taxi extends Vehiculo {
     private int valorPasaje;
 
+    public Taxi(){
+    }
+
     //--CONSTRUCTOR--
-    public Taxi(int valorPasaje) {
+    public Taxi(String color, String patente, int valorPasaje) {
+        super(color, patente);
         this.valorPasaje = valorPasaje;
     }
     //--GETTER--
@@ -16,15 +20,13 @@ public class Taxi {
         this.valorPasaje = valorPasaje;
     }
     //--VUELTO Y PAGO--
-    public int pagarPasaje(int valorPagado) {
+    public int pagarPasaje(int monto) {
 
-        if (valorPagado >= valorPasaje) {
-            return (valorPagado - valorPasaje);
+        if (monto >= valorPasaje) {
+            return monto - valorPasaje;
 
-        } else {
-             return valorPagado;
         }
-
+             return monto;
     }
 }
 

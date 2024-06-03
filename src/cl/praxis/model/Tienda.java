@@ -5,10 +5,11 @@ public class Tienda {
     private Vehiculo vehiculo;
     private int stock;
 
+    //--CONSTRUCTOR--
     public Tienda(){
     }
 
-    //--CONSTRUCTOR + SUPER CLASS--
+    //--SUPER CLASS--
     public Tienda(Vendedor vendedor, Vehiculo vehiculo, int stock) {
         this.vendedor = vendedor;
         this.vehiculo = vehiculo;
