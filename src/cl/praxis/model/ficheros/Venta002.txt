@@ -1,0 +1,4 @@
+Patente: vz-rd-50
+Edad Cliente: 40
+Fecha Venta: 04062024
+Nombre Venta: Venta002

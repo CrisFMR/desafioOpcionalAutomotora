@@ -9,7 +9,7 @@ public class Tienda {
     public Tienda(){
     }
 
-    //--SUPER CLASS--
+    //--CONSTRUCTOR CON PARÁMETROS--
     public Tienda(Vendedor vendedor, Vehiculo vehiculo, int stock) {
         this.vendedor = vendedor;
         this.vehiculo = vehiculo;

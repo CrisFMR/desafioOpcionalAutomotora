@@ -1,6 +1,6 @@
 package cl.praxis.model;
 
-public class Persona {
+public abstract class Persona {
     private String rut;
     private String nombre;
     private int edad;

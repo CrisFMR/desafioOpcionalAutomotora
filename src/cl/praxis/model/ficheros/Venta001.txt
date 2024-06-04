@@ -1,0 +1,4 @@
+Patente: gg-ts-93
+Edad Cliente: 35
+Fecha Venta: 04062024
+Nombre Venta: Venta001

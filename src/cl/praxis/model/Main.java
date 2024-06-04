@@ -1,7 +1,10 @@
 package cl.praxis.model;
 
-public class Venta {
+import java.sql.SQLOutput;
+
+public class Main {
     public static void main(String[] args) {
+        /*
         //Taxi
         Taxi taxi = new Taxi();
         System.out.println("========================TAXI=========");
@@ -31,10 +34,23 @@ public class Venta {
 
         //Tienda
         Tienda tienda = new Tienda();
-        System.out.println("======================TIENDA=========");
+        System.out.println("================STOCK TIENDA=========");
         tienda.setStock(21);
         //Formato solicitado por requerimiento
         System.out.println(tienda.existeStock());
+        System.out.println("\n");*/
+
+        //testing code Desafio evaluado:
+
+        System.out.println("===========REGISTRO DE VENTA=========");
+        System.out.println();
+
+        Cliente cliente = new Cliente("","",40);
+        Vehiculo vehiculo = new Vehiculo("", "vz-rd-50");
+        LibroVenta libroVenta = new LibroVenta("04062024", "Venta002");
+        libroVenta.guardarVenta(vehiculo, cliente);
+
+
 
 
     }
